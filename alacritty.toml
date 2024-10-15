@@ -1,0 +1,17 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+dimensions = { columns = 130, lines = 40 }
+padding = { x = 3, y = 3 }
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 11
+
+[mouse]
+hide_when_typing = true
