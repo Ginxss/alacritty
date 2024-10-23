@@ -1,8 +1,10 @@
+# This is the same as [general.import]
+[general]
 import = [
   "~/.config/alacritty/catppuccin-mocha.toml"
 ]
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/fish"
 
 [window]
@@ -15,3 +17,4 @@ size = 11
 
 [mouse]
 hide_when_typing = true
+
