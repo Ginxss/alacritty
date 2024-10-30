@@ -1,8 +1,6 @@
 # This is the same as [general.import]
 [general]
-import = [
-  "~/.config/alacritty/catppuccin-mocha.toml"
-]
+import = [ "~/.config/alacritty/catppuccin-mocha.toml" ]
 
 [terminal.shell]
 program = "/usr/bin/fish"
