@@ -3,7 +3,7 @@
 import = [ "catppuccin-mocha.toml" ]
 
 [terminal.shell]
-program = "/usr/bin/fish"
+program = { program = "powershell", args = ["-nologo"] }
 
 [window]
 dimensions = { columns = 130, lines = 40 }
