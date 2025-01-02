@@ -2,8 +2,8 @@
 [general]
 import = [ "catppuccin-mocha.toml" ]
 
-[terminal.shell]
-program = { program = "powershell", args = ["-nologo"] }
+[terminal]
+shell = { program = "powershell", args = ["-nologo"] }
 
 [window]
 dimensions = { columns = 130, lines = 40 }
