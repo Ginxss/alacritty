@@ -16,3 +16,11 @@ size = 11
 [mouse]
 hide_when_typing = true
 
+[keyboard]
+bindings = [
+
+{ mode = "Vi", mods = "Control", key = "L", action = "Last" },
+{ mode = "Vi", mods = "Control", key = "H", action = "First" },
+{ mode = "Vi", mods = "Shift", key = "Slash", action = "SearchForward" },
+
+]
