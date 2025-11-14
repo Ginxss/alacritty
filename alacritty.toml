@@ -6,15 +6,14 @@ import = [ "catppuccin-mocha.toml" ]
 program = "/usr/bin/fish"
 
 [window]
+padding = { x = 10, y = 10 }
 dimensions = { columns = 130, lines = 40 }
-padding = { x = 3, y = 3 }
 
 [font]
-normal = { family = "Hack Nerd Font", style = "Regular" }
+normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
+bold = { family = "CaskaydiaMono Nerd Font", style = "Bold" }
+italic = { family = "CaskaydiaMono Nerd Font", style = "Italic" }
 size = 11
-
-[mouse]
-hide_when_typing = true
 
 [keyboard]
 bindings = [
