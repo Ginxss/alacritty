@@ -8,6 +8,7 @@ program = "/usr/bin/fish"
 [window]
 padding = { x = 10, y = 10 }
 dimensions = { columns = 130, lines = 40 }
+opacity = 0.97
 
 [font]
 normal = { family = "CaskaydiaMono Nerd Font", style = "Regular" }
