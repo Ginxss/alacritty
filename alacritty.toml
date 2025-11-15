@@ -1,6 +1,6 @@
 # This is the same as [general.import]
 [general]
-import = [ "catppuccin-mocha.toml" ]
+import = [ "themes/catppuccin-mocha.toml" ]
 
 [terminal.shell]
 program = "/usr/bin/fish"
